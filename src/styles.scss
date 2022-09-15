@@ -4,12 +4,15 @@ $yellow: hsl(48, 100%, 50%);
 
 body {
   color: $blue;
-  background-color: #f5f5f5;
   font-size: 16px;
 }
 
 a {
   color: $red;
+}
+
+.headfoot {
+  background-color: #f5f5f5;
 }
 
 .footer {
