@@ -5,15 +5,15 @@ import SiteFooter from"./organisms/SiteFooter";
 function App() {
   return (
     <>
-      <div className="container full-width">
+      <section className="headfoot">
         <Header />
-      </div>
-      <div className="container">
+      </section>
+      <div className="container p-4">
         <Outlet />
       </div>
-      <div className="container full-width">
+      <section className="headfoot">
         <SiteFooter />
-      </div>
+      </section>
     </>
   );
 }
